@@ -1,4 +1,5 @@
-import os from flask import Flask, request
+import os 
+from flask import Flask, request
 from telegram import Update
 from telegram.ext import Application, CommandHandler
 TOKEN = '8067725589:AAHaOtDiBu8uwk9emqmxrprGOlyXJGItWOM'
