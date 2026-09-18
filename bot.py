@@ -20,3 +20,5 @@ async def start(update, context):
             loop.create_task(app_builder.update_queue.put(update))
             return 'ok', 200 if name == 'main':
             app.run(host='0.0.0.0', port=5000)
+            
+port=int(os.environ.get('PORT', 5000))
