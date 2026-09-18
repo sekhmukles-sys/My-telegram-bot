@@ -1,1 +1,10 @@
-package.json
+
+name": "my-telegram-bot",
+  "version": "1.0.0",
+  "description": "A simple telegram bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0
