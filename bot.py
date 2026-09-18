@@ -13,7 +13,8 @@ async def start(update, context):
         await app_builder.start()
         webhook_url = 'YOUR_RENDER_URL' + '/' + TOKEN
         await app_builder.bot.set_webhook(webhook_url)
-        import asyncio loop = asyncio.get_event_loop()
+        import 
+        asyncio loop = asyncio.get_event_loop()
         loop.run_until_complete(main())
         @app.route('/' + TOKEN, methods=['POST'])def webhook():
             json_update = request.get_json()
