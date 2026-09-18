@@ -1,4 +1,4 @@
-Telegram Bot (Termux Edition)
+#Telegram Bot (Termux Edition)
 # Clean Version + Smart AI + Typing Effect
 # Works for python-telegram-bot v20+
 # -----------------------------
