@@ -1,4 +1,4 @@
 
 Pillow
-requirements.txt
+requests
 beautifulsoup4
